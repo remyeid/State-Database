@@ -1,6 +1,6 @@
-# Test
+# State Databse
 
-Test contains code to create a game of tic tac toe.
+This is my state database project from highschool. I am the onlyu contributed but the instructions were provided by Hadley Steelman.
 
-Details... 
+The code imports a textfile and loads the data into a 2D array. You can then print the array or search for specific states by name, capital, state bird or flower, and population.
 
