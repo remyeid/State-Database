@@ -9,60 +9,7 @@ import javax.swing.JTextArea;
 import javax.swing.UIManager;
 import javax.swing.plaf.FontUIResource;
 
-/********************************************************************
- * Written by:
- * Period:
- * 
- * ASSIGNMENT:  Write a program that reads the data from 
- * states.txt into a 2-D array of Strings. The data is in the order:
- * 		state name
- * 		state capital
- * 		state flower
- * 		state bird
- * 		state population
- * Then give the user the following options:
- * 		print, search, sort, exit (using buttons)
- * Your program should continue until the user chooses exit.
- * 
- * print:  prints the array in a JScrollPane - use the code I gave 
- * 		you to get started.
- * search:  should ask the user what field they want to search 
- * 	(using buttons) and then call one of three search methods:
- * 	search for name or capital - 
- * 		- send the field to be searched (name - 0 or capital - 1).
- * 		- ask for the name or capital to search for.
- * 		- use a binary search to find the state and print the data
- * 			 for that state.
- * search for bird or flower - 
- * 		- send the field to to searched (flower - 2 or bird - 3).
- * 		- ask for the flower or bird to search for.
- * 		- use a sequential search to print the names of all states
- * 			with that flower or bird in ONE JOP window.  
- * 	searchForPopulation - 
- * 		- ask for a low and a high population to search for.
- * 		- use a sequential search to print the names of all states
- * 			with populations in that range in ONE JOP window.
- *  
- * For all 3 searches if the search data isn't found you should print
- * 		an appropriate message.  Case shouldn't matter in your search.
- * For all 3 searched include the data you are searching for in your
- * 		JOP window.
- *  
- *  
- * FIRST GRADE: Printing - 20 points - let me see your program run.
- * 			fill and print work - columns line up correctly and 
- * 				have correct headings (10 points)
- * 			your main method is correct (5 points)
- * 
- * SECOND GRADE: Searching - 20 points - let me see your program run.
- * 		Each search follows the directions and works correctly:
- * 			search for name - binary search  (10 points)
- *			search for bird and flower - sequential search, one method (5 points)
- *			search for population - sequential search  (5 points)
- *			your main method is still correct (5 points)
- *
- *
- *******************************************************************/
+
 public class StateDatabase{
 	public static void fillArray(String[][] userArray) {
 		try {
